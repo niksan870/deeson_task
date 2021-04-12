@@ -1,0 +1,44 @@
+#dashboard{
+  background-color: #0e9aa7;
+}
+
+.stopwatch {
+  margin-bottom: 30px;
+}
+
+#lap_history{
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#lap_history {
+  line-height: 22px;
+  color: #fff;
+}
+
+.parent_stopwatch {
+  padding-top: 15px;
+}
+
+
+#lap_history button {
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #01822e;
+  height: 35px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease-out;
+  margin: 15px;
+  text-transform: uppercase;
+}
+
+#lap_history button:hover {
+  cursor: pointer;
+  background-color: #01822e;
+}

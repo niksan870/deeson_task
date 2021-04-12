@@ -1,0 +1,27 @@
+.times {
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.times-content {
+  margin: 0 auto;
+  width: 280px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#timer-label {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#time-left {
+  color: #fff;
+  font-size: 170px;
+  font-weight: bold;
+}
