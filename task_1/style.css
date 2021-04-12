@@ -33,7 +33,7 @@ h4 {
 }
 
 .container {
-    max-width: 780px;
+    width: 780px;
     text-align: left;
     height: 100%;
     position:absolute;
